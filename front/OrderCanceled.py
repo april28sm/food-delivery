@@ -1,6 +1,6 @@
+
 from AbstractEvent import AbstractEvent
 import json
-from datetime import datetime
 
 class OrderCanceled(AbstractEvent):
     id : int

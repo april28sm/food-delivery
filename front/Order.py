@@ -19,7 +19,6 @@ class Order(Base):
     id = Column(Integer, primary_key=True)
     foodId = Column(String(50))
     customerId = Column(String(50))
-    preference = Column(String(50))
     options = Column(String(50))
     address = Column()
     status = Column(String(50))
@@ -28,7 +27,6 @@ class Order(Base):
         self.id = None
         self.foodId = None
         self.customerId = None
-        self.preference = None
         self.options = None
         self.address = None
         self.status = None
