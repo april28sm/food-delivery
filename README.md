@@ -95,6 +95,6 @@ server:
 
 
 
-# 추가사항 2 (주문 시작 및 거절 요리 시작 및 상태 확)
+# 추가사항 2 (주문 시작 및 거절 요리 시작 및 상태 확인)
 ![image](https://user-images.githubusercontent.com/94352502/203258912-fd59e714-8d58-40b5-aaf9-39d1916f0881.png)
 
