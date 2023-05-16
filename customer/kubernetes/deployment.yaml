@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: order
+  name: customer
   labels:
-    app: order
+    app: customer
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: order
+      app: customer
   template:
     metadata:
       labels:
-        app: order
+        app: customer
     spec:
       containers:
-        - name: order
+        - name: customer
           image: april28sm/customer:v1
           ports:
             - containerPort: 8080
