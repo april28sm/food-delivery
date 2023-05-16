@@ -1,7 +1,7 @@
 # delivery
 
 ## Running in local development environment
- 
+
 ```
 mvn spring-boot:run
 ```
