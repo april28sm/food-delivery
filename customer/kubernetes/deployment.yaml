@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: april28sm/customercenter:v1
+          image: april28sm/customer:v1
           ports:
             - containerPort: 8080
           readinessProbe:
