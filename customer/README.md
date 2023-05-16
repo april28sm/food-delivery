@@ -1,6 +1,6 @@
 # customer
 
-## Running in local development environment
+## Running in local development environment 
 
 ```
 mvn spring-boot:run
